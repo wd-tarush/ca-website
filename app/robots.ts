@@ -1,12 +1,13 @@
 import type { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const base = 'https://www.aggarwalandassociates.in'
+  const base = 'https://www.catanishqaggarwal.com'
 
   return {
     rules: {
       userAgent: '*',
-      allow:     '/',
+      allow: '/',
+      disallow: '/api/',
     },
     sitemap: `${base}/sitemap.xml`,
   }

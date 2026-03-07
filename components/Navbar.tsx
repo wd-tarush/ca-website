@@ -52,7 +52,7 @@ export default function Navbar() {
           </div>
           <div>
             <div className={`font-poppins font-bold text-sm leading-tight transition-colors duration-300 ${isScrolled ? 'text-[#1E3A8A]' : 'text-white'}`}>
-              Aggarwal
+              Tanishq Aggarwal
             </div>
             <div className={`font-inter text-xs transition-colors duration-300 ${isScrolled ? 'text-gray-500' : 'text-white/70'}`}>
               & Associates

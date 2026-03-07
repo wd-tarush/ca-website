@@ -4,9 +4,27 @@ import Footer from '@/components/Footer'
 import AboutPage from '@/components/AboutPage'
 
 export const metadata: Metadata = {
-  title: 'About CA Tanishq Aggarwal | Chartered Accountant Punjab',
+  title: 'About CA Tanishq Aggarwal | ICAI Chartered Accountant Punjab',
   description:
-    'Meet CA Tanishq Aggarwal — ICAI-qualified Chartered Accountant based in Punjab, India. Expert in taxation, GST, audit, and financial advisory services.',
+    'Meet CA Tanishq Aggarwal — ICAI-qualified Chartered Accountant in Punjab, India. 4+ years experience in Income Tax, GST, Audit & Financial Advisory. Serving 50+ clients across Punjab.',
+  keywords: [
+    'CA Tanishq Aggarwal',
+    'Tanishq Aggarwal CA',
+    'chartered accountant Punjab',
+    'ICAI member Punjab',
+    'best CA Punjab',
+    'CA Ludhiana',
+  ],
+  alternates: {
+    canonical: 'https://www.catanishqaggarwal.com/about',
+  },
+  openGraph: {
+    title: 'About CA Tanishq Aggarwal | ICAI Chartered Accountant Punjab',
+    description:
+      'ICAI-qualified Chartered Accountant in Punjab with expertise in Income Tax, GST, Audit & Financial Advisory. 50+ clients served.',
+    url: 'https://www.catanishqaggarwal.com/about',
+    images: [{ url: '/gallery/profile_pic.jpg', alt: 'CA Tanishq Aggarwal' }],
+  },
 }
 
 export default function About() {
