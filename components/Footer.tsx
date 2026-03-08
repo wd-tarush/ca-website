@@ -28,7 +28,7 @@ export default function Footer() {
           <div>
             <h3 className="font-poppins font-bold text-xl text-white">Ready to simplify your finances?</h3>
             <p className="text-white/80 font-inter text-sm mt-1">
-              Book a free consultation with Aggarwal & Associates today.
+              Book a free consultation with Tanishq Aggarwal & Associates today.
             </p>
           </div>
           <Link
@@ -141,7 +141,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="container mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-white/40 text-xs font-inter">
-          <p>© {year} Aggarwal & Associates. All rights reserved.</p>
+          <p>© {year} Tanishq Aggarwal & Associates. All rights reserved.</p>
           <p>ICAI Member · Registered Chartered Accountant · Punjab, India</p>
         </div>
       </div>

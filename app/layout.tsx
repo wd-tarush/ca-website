@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     'foreign accounting India',
     'remote bookkeeping India',
     'outsource bookkeeping India',
-    'Aggarwal and Associates',
+    'Tanishq Aggarwal and Associates',
   ],
   authors: [{ name: 'CA Tanishq Aggarwal', url: 'https://www.catanishqaggarwal.com' }],
   creator: 'CA Tanishq Aggarwal',

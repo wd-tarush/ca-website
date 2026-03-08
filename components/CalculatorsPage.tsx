@@ -107,7 +107,7 @@ export default function CalculatorsPage() {
           {/* Disclaimer */}
           <p className="text-center text-xs text-gray-400 font-inter mt-10 max-w-2xl mx-auto leading-relaxed">
             Disclaimer: These calculators provide estimates for general guidance only. Actual tax liability
-            may vary based on individual circumstances. Consult Aggarwal &amp; Associates for a certified assessment.
+            may vary based on individual circumstances. Consult Tanishq Aggarwal &amp; Associates for a certified assessment.
           </p>
         </div>
       </section>

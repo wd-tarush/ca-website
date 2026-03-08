@@ -177,7 +177,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Aggarwal & Associates Office Location"
+              title="Tanishq Aggarwal & Associates Office Location"
             />
           </motion.div>
 

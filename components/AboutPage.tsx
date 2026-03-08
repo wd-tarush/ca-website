@@ -106,7 +106,7 @@ const expertise = [
 const timeline = [
   {
     year: '2025–Present',
-    title: 'Aggarwal & Associates',
+    title: 'Tanishq Aggarwal & Associates',
     desc: 'Established independent practice in Punjab, serving 50+ clients across diverse industries with taxation, audit, and financial advisory services.',
   },
   {
@@ -330,7 +330,7 @@ export default function AboutPage() {
                 <p>
                   Founded on the principles of{' '}
                   <strong className="text-[#1E3A8A]">transparency, accuracy, and client-first advisory</strong>,
-                  Aggarwal & Associates has grown to serve a diverse clientele — from individual
+                  Tanishq Aggarwal & Associates has grown to serve a diverse clientele — from individual
                   salaried professionals and small businesses to growing startups and established corporates.
                 </p>
                 <p>
@@ -540,7 +540,7 @@ export default function AboutPage() {
             <span className="section-tag">Gallery</span>
             <h2 className="section-title">Moments &amp; Milestones</h2>
             <p className="section-subtitle max-w-xl mx-auto">
-              A glimpse into our work, events, and the journey of Aggarwal &amp; Associates.
+              A glimpse into our work, events, and the journey of Tanishq Aggarwal &amp; Associates.
             </p>
           </motion.div>
 
