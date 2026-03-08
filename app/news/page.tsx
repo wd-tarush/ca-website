@@ -18,13 +18,13 @@ export const metadata: Metadata = {
     'finance news India',
   ],
   alternates: {
-    canonical: 'https://www.catanishqaggarwal.com/news',
+    canonical: 'https://www.tanishqaggarwalassociates.com/news',
   },
   openGraph: {
     title: 'CA & Finance News | GST, Income Tax & ICAI Updates',
     description:
       'Stay updated with latest GST, Income Tax, ICAI and Companies Act news. Curated for Chartered Accountants and businesses in India.',
-    url: 'https://www.catanishqaggarwal.com/news',
+    url: 'https://www.tanishqaggarwalassociates.com/news',
     images: [{ url: '/gallery/profile_pic.jpg', alt: 'CA Finance News — Tanishq Aggarwal' }],
   },
 }

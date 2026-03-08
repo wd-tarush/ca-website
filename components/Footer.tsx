@@ -44,13 +44,13 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Brand */}
         <div className="lg:col-span-1">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="w-10 h-10 bg-[#D4AF37] rounded-lg flex items-center justify-center">
+          <div className="flex items-center gap-2 mb-5">
+            <div className="w-10 h-10 bg-[#D4AF37] rounded-lg flex items-center justify-center flex-shrink-0">
               <span className="text-white font-bold text-sm font-poppins">CA</span>
             </div>
             <div>
-              <div className="font-poppins font-bold text-sm leading-tight">Aggarwal</div>
-              <div className="text-white/60 text-xs">& Associates</div>
+              <div className="font-poppins font-bold text-xs leading-tight text-white">Tanishq Aggarwal</div>
+              <div className="text-white/60 text-xs leading-tight">& Associates</div>
             </div>
           </div>
           <p className="text-white/60 font-inter text-sm leading-relaxed mb-5">

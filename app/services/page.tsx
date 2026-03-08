@@ -34,13 +34,13 @@ export const metadata: Metadata = {
     'international bookkeeping services India',
   ],
   alternates: {
-    canonical: 'https://www.catanishqaggarwal.com/services',
+    canonical: 'https://www.tanishqaggarwalassociates.com/services',
   },
   openGraph: {
     title: 'CA Services Punjab | Income Tax, GST, Company Registration & More',
     description:
       'Complete chartered accountant services in Punjab — ITR filing, GST, company registration, audit, accounting & startup advisory by CA Tanishq Aggarwal.',
-    url: 'https://www.catanishqaggarwal.com/services',
+    url: 'https://www.tanishqaggarwalassociates.com/services',
     images: [{ url: '/gallery/profile_pic.jpg', alt: 'CA Services by Tanishq Aggarwal' }],
   },
 }

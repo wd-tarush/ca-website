@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     'CA Tanishq Aggarwal contact',
   ],
   alternates: {
-    canonical: 'https://www.catanishqaggarwal.com/contact',
+    canonical: 'https://www.tanishqaggarwalassociates.com/contact',
   },
   openGraph: {
     title: 'Contact CA Tanishq Aggarwal | Book Free Consultation',
     description:
       'Book a free consultation with CA Tanishq Aggarwal in Punjab. Expert in Tax, GST, Company Registration & Audit. Call +91 6284757741.',
-    url: 'https://www.catanishqaggarwal.com/contact',
+    url: 'https://www.tanishqaggarwalassociates.com/contact',
     images: [{ url: '/gallery/profile_pic.jpg', alt: 'Contact CA Tanishq Aggarwal' }],
   },
 }

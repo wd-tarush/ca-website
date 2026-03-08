@@ -3,7 +3,7 @@ import { Poppins, Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 
-const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX' // Replace with your actual Measurement ID
+const GA_MEASUREMENT_ID = 'G-F00FG5V4KQ'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -19,13 +19,13 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.catanishqaggarwal.com'),
+  metadataBase: new URL('https://www.tanishqaggarwalassociates.com'),
   title: {
-    default: 'CA Tanishq Aggarwal | Chartered Accountant Punjab — Tax, GST & Audit',
+    default: 'CA Tanishq Aggarwal | Chartered Accountant Punjab — Tax, GST ',
     template: '%s | CA Tanishq Aggarwal',
   },
   description:
-    'CA Tanishq Aggarwal — ICAI-qualified Chartered Accountant in Punjab, India. Expert in Income Tax filing, GST registration, company registration, audit, and financial advisory for businesses and individuals.',
+    'CA Tanishq Aggarwal — ICAI-qualified Chartered Accountant in Punjab, India. Expert in Income Tax filing, GST registration, company registration  and financial advisory for businesses and individuals.',
   keywords: [
     'CA Tanishq Aggarwal',
     'Tanishq Aggarwal Chartered Accountant',
@@ -38,7 +38,6 @@ export const metadata: Metadata = {
     'GST filing Punjab',
     'company registration Punjab',
     'LLP registration Punjab',
-    'audit services Punjab',
     'tax consultant Punjab',
     'CA for business Punjab',
     'CA for bank services Punjab',
@@ -55,16 +54,16 @@ export const metadata: Metadata = {
     'outsource bookkeeping India',
     'Tanishq Aggarwal and Associates',
   ],
-  authors: [{ name: 'CA Tanishq Aggarwal', url: 'https://www.catanishqaggarwal.com' }],
+  authors: [{ name: 'CA Tanishq Aggarwal', url: 'https://www.tanishqaggarwalassociates.com' }],
   creator: 'CA Tanishq Aggarwal',
   publisher: 'Tanishq Aggarwal & Associates',
   alternates: {
-    canonical: 'https://www.catanishqaggarwal.com',
+    canonical: 'https://www.tanishqaggarwalassociates.com',
   },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://www.catanishqaggarwal.com',
+    url: 'https://www.tanishqaggarwalassociates.com',
     siteName: 'CA Tanishq Aggarwal',
     title: 'CA Tanishq Aggarwal | Chartered Accountant Punjab',
     description:
@@ -128,12 +127,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {
                 '@context': 'https://schema.org',
                 '@type': ['AccountingService', 'LocalBusiness'],
-                '@id': 'https://www.catanishqaggarwal.com/#business',
+                '@id': 'https://www.tanishqaggarwalassociates.com/#business',
                 name: 'Tanishq Aggarwal & Associates',
                 alternateName: 'CA Tanishq Aggarwal',
-                url: 'https://www.catanishqaggarwal.com',
-                logo: 'https://www.catanishqaggarwal.com/gallery/site_icon.png',
-                image: 'https://www.catanishqaggarwal.com/gallery/profile_pic.jpg',
+                url: 'https://www.tanishqaggarwalassociates.com',
+                logo: 'https://www.tanishqaggarwalassociates.com/gallery/site_icon.png',
+                image: 'https://www.tanishqaggarwalassociates.com/gallery/profile_pic.jpg',
                 description:
                   'ICAI-qualified Chartered Accountant firm in Punjab, India specializing in Income Tax, GST, Company Registration, Audit & Assurance, and Financial Advisory services.',
                 telephone: '+916284757741',
@@ -173,14 +172,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {
                 '@context': 'https://schema.org',
                 '@type': 'Person',
-                '@id': 'https://www.catanishqaggarwal.com/#person',
+                '@id': 'https://www.tanishqaggarwalassociates.com/#person',
                 name: 'Tanishq Aggarwal',
                 alternateName: 'CA Tanishq Aggarwal',
                 jobTitle: 'Chartered Accountant',
                 description:
                   'ICAI-qualified Chartered Accountant based in Punjab, India with expertise in taxation, GST, audit, and financial advisory.',
-                url: 'https://www.catanishqaggarwal.com',
-                image: 'https://www.catanishqaggarwal.com/gallery/profile_pic.jpg',
+                url: 'https://www.tanishqaggarwalassociates.com',
+                image: 'https://www.tanishqaggarwalassociates.com/gallery/profile_pic.jpg',
                 telephone: '+916284757741',
                 email: 'catanishqaggarwal@gmail.com',
                 address: {
@@ -201,7 +200,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   'https://www.linkedin.com/in/tanishqaggarwal31/',
                 ],
                 worksFor: {
-                  '@id': 'https://www.catanishqaggarwal.com/#business',
+                  '@id': 'https://www.tanishqaggarwalassociates.com/#business',
                 },
               },
             ]),

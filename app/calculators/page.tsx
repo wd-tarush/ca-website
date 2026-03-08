@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     'GST calculator India',
   ],
   alternates: {
-    canonical: 'https://www.catanishqaggarwal.com/calculators',
+    canonical: 'https://www.tanishqaggarwalassociates.com/calculators',
   },
   openGraph: {
     title: 'Free Tax Calculators | Income Tax, GST & ITR — CA Tanishq Aggarwal',
     description:
       'Free Income Tax, GST Late Fee & ITR Refund calculators for Indian taxpayers. Old vs New Regime comparison by CA Tanishq Aggarwal.',
-    url: 'https://www.catanishqaggarwal.com/calculators',
+    url: 'https://www.tanishqaggarwalassociates.com/calculators',
     images: [{ url: '/gallery/profile_pic.jpg', alt: 'Tax Calculators by CA Tanishq Aggarwal' }],
   },
 }

@@ -43,19 +43,19 @@ export default function Navbar() {
       <nav className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md transition-colors duration-300 ${
-            isScrolled
-              ? 'bg-[#1E3A8A] group-hover:bg-[#D4AF37]'
-              : 'bg-[#D4AF37] group-hover:bg-[#B8960C]'
-          }`}>
-            <span className="text-white font-bold text-sm font-poppins">CA</span>
-          </div>
+          {/* CA INDIA logo */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/gallery/site_icon.png"
+            alt="CA India Logo"
+            className="h-10 w-auto flex-shrink-0"
+          />
           <div>
-            <div className={`font-poppins font-bold text-sm leading-tight transition-colors duration-300 ${isScrolled ? 'text-[#1E3A8A]' : 'text-white'}`}>
-              Tanishq Aggarwal
+            <div className={`font-poppins font-extrabold text-base md:text-lg leading-tight tracking-wide transition-colors duration-300 ${isScrolled ? 'text-[#1E3A8A]' : 'text-white'}`}>
+              TANISHQ AGGARWAL &amp; ASSOCIATES
             </div>
-            <div className={`font-inter text-xs transition-colors duration-300 ${isScrolled ? 'text-gray-500' : 'text-white/70'}`}>
-              & Associates
+            <div className={`font-inter text-xs tracking-widest transition-colors duration-300 ${isScrolled ? 'text-gray-500' : 'text-white/70'}`}>
+              CHARTERED ACCOUNTANTS
             </div>
           </div>
         </Link>

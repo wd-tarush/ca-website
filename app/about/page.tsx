@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     'CA Ludhiana',
   ],
   alternates: {
-    canonical: 'https://www.catanishqaggarwal.com/about',
+    canonical: 'https://www.tanishqaggarwalassociates.com/about',
   },
   openGraph: {
     title: 'About CA Tanishq Aggarwal | ICAI Chartered Accountant Punjab',
     description:
       'ICAI-qualified Chartered Accountant in Punjab with expertise in Income Tax, GST, Audit & Financial Advisory. 50+ clients served.',
-    url: 'https://www.catanishqaggarwal.com/about',
+    url: 'https://www.tanishqaggarwalassociates.com/about',
     images: [{ url: '/gallery/profile_pic.jpg', alt: 'CA Tanishq Aggarwal' }],
   },
 }

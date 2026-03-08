@@ -15,7 +15,8 @@
       "Bash(curl:*)",
       "Bash(npm install:*)",
       "Bash(gh auth:*)",
-      "Bash(git:*)"
+      "Bash(git:*)",
+      "Bash(sed:*)"
     ]
   }
 }
