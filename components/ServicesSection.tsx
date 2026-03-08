@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import {
   FileText, Receipt, Building2, BookOpen,
-  Shield, Search, Rocket, TrendingUp, ArrowRight,
+  Shield, Search, Rocket, TrendingUp, Globe, ArrowRight,
 } from 'lucide-react'
 
 export const services = [
@@ -79,6 +79,15 @@ export const services = [
     color: 'from-[#D4AF37] to-[#B8960C]',
     bg: 'bg-yellow-50',
     border: 'border-yellow-100',
+  },
+  {
+    icon: Globe,
+    title: 'Foreign Accounting',
+    description:
+      'Remote bookkeeping and accounting services for international clients using QuickBooks and Xero — accurate, timely, and fully managed from India.',
+    color: 'from-teal-500 to-teal-700',
+    bg: 'bg-teal-50',
+    border: 'border-teal-100',
   },
 ]
 

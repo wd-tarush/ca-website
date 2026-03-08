@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Poppins, Inter } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
+
+const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX' // Replace with your actual Measurement ID
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -45,6 +48,11 @@ export const metadata: Metadata = {
     'ITR filing Punjab',
     'TDS filing Punjab',
     'startup advisor Punjab',
+    'QuickBooks bookkeeper India',
+    'Xero accountant India',
+    'foreign accounting India',
+    'remote bookkeeping India',
+    'outsource bookkeeping India',
     'Aggarwal and Associates',
   ],
   authors: [{ name: 'CA Tanishq Aggarwal', url: 'https://www.catanishqaggarwal.com' }],
@@ -95,6 +103,22 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
+      <head>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
+      </head>
       <body className="font-inter antialiased bg-white text-gray-900">
         {/* JSON-LD: Local Business + Person structured data */}
         <script

@@ -4,9 +4,9 @@ import Footer from '@/components/Footer'
 import ServicesPage from '@/components/ServicesPage'
 
 export const metadata: Metadata = {
-  title: 'CA Services Punjab | Income Tax, GST, Company Registration, Audit',
+  title: 'CA Services Punjab | Income Tax, GST, Foreign Accounting, Audit | CA Tanishq Aggarwal',
   description:
-    'Complete CA services in Punjab — Income Tax filing, GST registration & returns, Company & LLP registration, Audit & Assurance, Accounting, Payroll, and Startup Advisory. CA Tanishq Aggarwal.',
+    'Complete CA services — Income Tax filing, GST registration, Company & LLP registration, Audit, Foreign Accounting (QuickBooks & Xero), and Startup Advisory. CA Tanishq Aggarwal, Punjab.',
   keywords: [
     'income tax filing Punjab',
     'GST registration Punjab',
@@ -24,6 +24,14 @@ export const metadata: Metadata = {
     'financial advisory Punjab',
     'CA for business Punjab',
     'CA for bank loan Punjab',
+    'QuickBooks bookkeeper India',
+    'Xero accountant India',
+    'foreign accounting services India',
+    'remote bookkeeping India',
+    'outsource bookkeeping India',
+    'QuickBooks accounting India',
+    'Xero bookkeeping India',
+    'international bookkeeping services India',
   ],
   alternates: {
     canonical: 'https://www.catanishqaggarwal.com/services',

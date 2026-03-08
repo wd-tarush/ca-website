@@ -72,6 +72,16 @@ const serviceDetails: Record<string, string[]> = {
     'Retirement and estate planning',
     'Insurance needs analysis',
   ],
+  'Foreign Accounting': [
+    'QuickBooks bookkeeping & accounting',
+    'Xero bookkeeping & accounting',
+    'Bank & credit card reconciliation',
+    'Accounts payable & receivable',
+    'Multi-currency transaction management',
+    'Month-end & year-end closing',
+    'Financial statement preparation',
+    'Payroll processing for foreign clients',
+  ],
 }
 
 export default function ServicesPage() {
